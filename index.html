@@ -1,16 +1,23 @@
-<html>
-    <div id="myDIV" class="header">
-        <h2>My To Do List</h2>
-        <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
-      </div>
-      
-      <ul id="myUL">
-        <li>Hit the gym</li>
-        <li class="checked">Pay bills</li>
-        <li>Meet George</li>
-        <li>Buy eggs</li>
-        <li>Read a book</li>
-        <li>Organize office</li>
-      </ul>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My To Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id="myDIV" class="header">
+    <h1>To Do</h1>
+    <input type="text" id="myInput" placeholder="Item Name...">
+    <span onclick="newElement()" id="myButton" class="addBtn">Add</span>
+  </div>
+
+  <ul id="myUL"></ul>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>
